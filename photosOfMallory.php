@@ -10,13 +10,5 @@
 	<div class="pageTitle">
 		<h1>Photos of Mallory</h1>
 	</div>
-	<div class="sidenav">
-		<ul>
-			<li><a href=Index.html>Home</a></li>
-			<li><a href=photosOfMe.html>Photos of me</a></li>
-			<li><a href=photosOfMallory.html>Photos of Mallory</a></li>
-			<li><a href=photosOfDad.html>Photos of Dad</a></li>
-			<li><a href=viewAllFrames.html>View all frames</a></li>
-		</ul>
-	</div>
+	<?php include_once 'subPages/sidenav.php'; ?>
 </body>

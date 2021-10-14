@@ -11,16 +11,7 @@
 	<div class="pageTitle">
 		<h1>Buy both printed and framed pictures at reasonable prices!</h1>
 	</div> <!--close pageTitle-->
-	<div class="sidenav">
-		<button id=changeTitleColor>Title Color</button>
-		<ul>
-			<li><a href=Index.html>Home</a></li>
-			<li><a href=photosOfMe.html>Photos of me</a></li>
-			<li><a href=photosOfMallory.html>Photos of Mallory</a></li>
-			<li><a href=photosOfDad.html>Photos of Dad</a></li>
-			<li><a href=viewAllFrames.html>View all frames</a></li>
-		</ul>
-	</div><!--close sidenav-->
+	<?php include_once 'subPages/sidenav.php'; ?>
 	<div class="rightnav">
 		<h2>Quality Frames</h2>
 		<div class="rightBox">

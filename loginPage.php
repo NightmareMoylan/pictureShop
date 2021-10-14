@@ -8,15 +8,7 @@
 		<a href="signUpPage.html"><button type="button" class="button" id="signUpButton">Sign Up</button></a>
 	</div>
 	<h1 class="loginsPageTitle">Login</h1>
-	<div class="sidenav">
-		<ul>
-			<li><a href=Index.html>Home</a></li>
-			<li><a href=photosOfMe.html>Photos of me</a></li>
-			<li><a href=photosOfMallory.html>Photos of Mallory</a></li>
-			<li><a href=photosOfDad.html>Photos of Dad</a></li>
-			<li><a href=viewAllFrames.html>View all frames</a></li>
-		</ul>
-	</div><!--close sidenav-->
+	<?php include_once 'subPages/sidenav.php'; ?>
 	<div class="loginBox">
 		<h2>Please enter your username and password</h2>
 		<form class="loginForm">
